@@ -1,0 +1,43 @@
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3 margintop-5">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2 class="panel-title">Please, Enter your flight details</h2>
+                    </div>
+                    <div class="panel-body">
+                        <form method="get" action="search/go/" role="form">
+                            <fieldset>
+                                <div>
+                                    <div class="form-group">
+                                        <label for="from">Departure Airport</label>
+                                        <input class="form-control input-lg" type="text" id="from" name="from" placeholder="Enter your departure airport, city or state" required="require" autocomplete="off"  />
+                                    </div>
+                                    <div id="departure_airport" class="s_box"></div>
+                                </div>
+                                <div>
+                                    <div class="form-group">
+                                        <label for="destination">Destination Airport</label>
+                                        <input class="form-control input-lg" type="text" name="to" id="destination" placeholder="Enter your destination airport, city or state" required="require" autocomplete="off"/>
+                                    </div>
+                                    <div id="destination_airport" class="s_box"></div>
+                                </div>
+                                <div>
+                                    <div class="form-group">
+                                        <label for="datetime">Flight time</label>
+                                        <input class="form-control input-lg" type="text" name="datetime" id="datetime" placeholder="Enter your departure date in the form dd/mm/yyyy" required="require" autocomplete="off"/>
+                                    </div>
+                                </div>
+                            <div class="row text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">Lookup status</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="panel-footer">
+
+        </div>
+    </div>
+</div>
